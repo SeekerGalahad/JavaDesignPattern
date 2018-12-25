@@ -1,5 +1,9 @@
 package com.design.training.factory.simple;
 
+/**
+ * 除法
+ * @author Wagic
+ */
 public class OperationDiv extends Operation {
 
     @Override

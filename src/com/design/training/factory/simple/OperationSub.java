@@ -1,5 +1,9 @@
 package com.design.training.factory.simple;
 
+/**
+ * 减法
+ * @author Wagic
+ */
 public class OperationSub extends Operation {
 
     @Override

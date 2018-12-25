@@ -1,5 +1,9 @@
 package com.design.training.factory.simple;
 
+/**
+ * 乘法
+ * @author Wagic
+ */
 public class OperationMul extends Operation {
 
     @Override
