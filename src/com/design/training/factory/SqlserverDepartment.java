@@ -3,7 +3,7 @@ package com.design.training.factory;
 
 /**
  * @Description:
- * @Date: 2018-12-25 14:49 by Wagic(weibin.wang01@ucarinc.com) 创建
+ * @Date: 2018-12-25 14:49 by Wagic 创建
  */
 public class SqlserverDepartment implements IDepartment {
     @Override
