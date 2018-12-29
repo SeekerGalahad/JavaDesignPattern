@@ -7,8 +7,7 @@ package com.design.training.strategy.cash;
  */
 public class CashFactory {
 
-
-    public CashSuper createCashAccept(String type) {
+    public static CashSuper createCashAccept(String type) {
         CashSuper cs = null;
 
         switch (type) {
@@ -22,9 +21,14 @@ public class CashFactory {
                 cs = new CashRebate(0.8);
                 break;
             default:
-
+                cs = new CashNormal();
         }
 
         return cs;
+    }
+
+    public static void main(String[] args) {
+        CashSuper cashSuper = CashFactory.createCashAccept("打8折");
+        System.out.println(cashSuper.acceptCash(10000));
     }
 }
